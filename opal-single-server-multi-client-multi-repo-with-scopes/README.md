@@ -22,8 +22,7 @@ curl --location --request PUT 'localhost:7002/scopes' \
         "source_type": "git",
         "url": "https://github.com/sarathkuppagiri/opal-multi-policy-repo",
         "auth": {
-            "auth_type": "github_token",
-            "token": "github_token"
+            "auth_type": "none"
         },
         "directories": [
             "test1"
@@ -51,8 +50,7 @@ curl --location --request PUT 'localhost:7002/scopes' \
         "source_type": "git",
         "url": "https://github.com/sarathkuppagiri/opal-user-repo",
         "auth": {
-            "auth_type": "github_token",
-            "token": "github_token"
+            "auth_type": "none"
         },
         "directories": [
             "."
