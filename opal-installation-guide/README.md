@@ -10,9 +10,7 @@ The docker-compose.yml is running 3 containers:
 ```
 
 A Broadcast Channel Container
-
 An OPAL Server Container
-
 An OPAL Client Container
 ```
 
