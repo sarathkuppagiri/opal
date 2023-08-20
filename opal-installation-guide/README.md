@@ -1,6 +1,9 @@
 # opal installation guide
 
+```
+
 docker-compose up
+```
 
 The docker-compose.yml is running 3 containers:
 
