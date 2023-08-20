@@ -1,6 +1,8 @@
 
 ### Spring security OPAL
 
+```
+
 curl --location --request POST 'http://localhost:8181/v1/data/test/auth/account' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -11,7 +13,23 @@ curl --location --request POST 'http://localhost:8181/v1/data/test/auth/account'
     }
 }'
 
+```
 
+Response
+
+```
+
+{
+    "result": {
+        "allow": [
+            "account_api_authorized"
+        ],
+        "authorized": true,
+        "deny": []
+    }
+}
+
+```
 
 
 ## Run AccountControllerLiveTest testcase
