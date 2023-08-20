@@ -24,7 +24,7 @@ OPA - PORT :8181 - the port of the OPA Agent that is running running in server m
 ```
 Configure git repo policy in the opal server as below
 
-``
+```
 - OPAL_POLICY_REPO_URL=https://github.com/sarathkuppagiri/opal-user-repo
 ```
 
