@@ -111,7 +111,7 @@ Response :
     }
 }
 
-curl --location --request POST 'http://localhost:8182/v1/data/test3/auth/account' \
+curl --location --request POST 'http://localhost:8182/v1/data/test1/auth/account' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "input": {
