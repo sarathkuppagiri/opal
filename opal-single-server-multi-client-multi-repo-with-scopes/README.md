@@ -142,7 +142,7 @@ docker-compose up
 
 ```
 
-The docker-compose.yml is running total 5 containers:
+The docker-compose.yml is running total 4 containers:
 
 ```
 
@@ -211,5 +211,12 @@ Response :
         "deny": []
     }
 }
+
+```
+
+### Get scopes API
+
+```
+curl --location --request GET 'localhost:7002/scopes'
 
 ```
