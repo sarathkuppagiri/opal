@@ -2,6 +2,15 @@
 
 ```
 
+ssh-keygen -q -t rsa -b 4096 -m pem -f opal_crypto_key -N ""
+export OPAL_AUTH_PUBLIC_KEY=`cat opal_crypto_key.pub`
+export OPAL_AUTH_PRIVATE_KEY=`cat opal_crypto_key | tr '\n' '_'`
+export OPAL_AUTH_MASTER_TOKEN=`openssl rand -hex 16`
+
+```
+
+```
+
 curl --location --request POST 'http://localhost:7002/token' \
 --header 'Authorization: bearer 4de87fb98f6b24ea372113613325083b' \
 --header 'Content-Type: application/json' \
