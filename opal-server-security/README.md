@@ -10,6 +10,9 @@ export OPAL_AUTH_MASTER_TOKEN=`openssl rand -hex 16`
 ```
 
 ```
+OPAL_AUTH_MASTER_TOKEN=4de87fb98f6b24ea372113613325083b
+
+Send auth master token as bearer token to the below endpoint
 
 curl --location --request POST 'http://localhost:7002/token' \
 --header 'Authorization: bearer 4de87fb98f6b24ea372113613325083b' \
